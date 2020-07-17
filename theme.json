@@ -1,3 +1,5 @@
 {
-    "backgroundColor": "#141414"
+    "backgroundColor": "#141414",
+    "secondaryColor": "#858585",
+    "grey": "#D0D0D0"
 }
