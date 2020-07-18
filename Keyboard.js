@@ -10,7 +10,7 @@ export default Keyboard = ({ handlePress, handleDelete }) => {
         else {
             keyboardKeys.push(
                 <KeyboardKey key="none" value=""></KeyboardKey>,
-                <KeyboardKey key="0" value="0" handlePress={handlePress}></KeyboardKey>,
+                <KeyboardKey key="0" value={0} handlePress={handlePress}></KeyboardKey>,
                 <KeyboardKey key="del" value="del" handlePress={handleDelete}></KeyboardKey>
             );
         }
