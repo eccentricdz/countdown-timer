@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "countdown-timer",
+    "name": "Countdown Timer",
     "slug": "countdown-timer",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,6 +21,13 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#141414"
+      }
+    },
+    "description": "A simple countdown timer built using React Native.",
+    "githubUrl": "https://github.com/eccentricdz/countdown-timer"
   }
 }
